@@ -1,0 +1,5 @@
+{% for post in posts %}
+    <h3>{{ post.title }}</h3>
+    <img src="{{ post.preview_image.url }}" alt="Video Preview">
+    <!-- Add other post details -->
+{% endfor %}
